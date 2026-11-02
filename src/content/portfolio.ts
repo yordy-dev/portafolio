@@ -434,6 +434,11 @@ export const projectsData: readonly Project[] = [
         href: "https://github.com/yordy-dev/vozbit",
         icon: "github",
       },
+      {
+        type: "Descargar",
+        href: "https://github.com/yordy-dev/vozbit/releases/latest",
+        icon: "globe",
+      },
     ],
     images: [
       "/projects/vozbit-demo.gif",
