@@ -137,7 +137,7 @@ export const educationData = [
     school: "Cisco Networking Academy",
     initials: "Cisco",
     icon: "simple-icons:cisco",
-    degree: "Formación en redes y ciberseguridad · 3 cursos",
+    degree: "Formación en redes y ciberseguridad · 5 cursos",
     period: "2026 - 2026",
     courses: [
       {
@@ -165,6 +165,24 @@ export const educationData = [
         description: [
           "Fundamentos para proteger equipos finales frente a amenazas, vulnerabilidades y ataques comunes.",
           "Curso ofrecido por la UTP Virtual a través de Cisco Networking Academy.",
+        ],
+      },
+      {
+        id: "cisco-defensa-red",
+        title: "Defensa de la red",
+        issued: "Emitido el 4 de noviembre de 2026",
+        description: [
+          "Protección y monitoreo de redes mediante defensa en profundidad, controles de acceso, firewalls, criptografía y seguridad en la nube.",
+          "Evaluación de alertas y aplicación de medidas para responder ante ataques y vulnerabilidades.",
+        ],
+      },
+      {
+        id: "cisco-amenazas-ciberneticas",
+        title: "Administración de Amenazas Cibernéticas",
+        issued: "Emitido el 4 de noviembre de 2026",
+        description: [
+          "Evaluación de vulnerabilidades, inteligencia de amenazas, pruebas de seguridad y gestión de riesgos.",
+          "Gobierno de ciberseguridad, análisis de incidentes, respuesta ante amenazas y recuperación ante desastres.",
         ],
       },
     ],
