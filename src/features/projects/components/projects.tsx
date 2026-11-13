@@ -12,7 +12,7 @@ import { projectsData, type Project } from "@/content/portfolio";
 export function Projects({ showAll = false }: { showAll?: boolean }) {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const visibleProjects = showAll ? projectsData : projectsData.slice(0, 3);
+  const visibleProjects = showAll ? projectsData : projectsData.slice(0, 4);
 
   const handleProjectClick = (project: Project) => {
     setSelectedProject(project);

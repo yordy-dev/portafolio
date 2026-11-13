@@ -361,6 +361,48 @@ export const projectsData: readonly Project[] = [
     ],
   },
   {
+    title: "Portafolio profesional",
+    context: "Sitio web personal",
+    description:
+      "Portafolio web adaptable para presentar mi experiencia en soporte TI y redes, educación, habilidades, certificaciones y proyectos.",
+    detailedDescription:
+      "Desarrollé este portafolio para reunir en un solo sitio mi perfil profesional, experiencia laboral, formación, certificaciones y proyectos. La interfaz se adapta a escritorio y dispositivos móviles, ofrece temas claro y oscuro, muestra galerías con información ampliada y permite consultar el CV y los medios de contacto.",
+    keyFeatures: [
+      "Diseño adaptable para escritorio y dispositivos móviles.",
+      "Tema claro y oscuro con transición suave.",
+      "Experiencia y educación con contenido desplegable.",
+      "Galerías y fichas detalladas para presentar cada proyecto.",
+      "Vista del CV y enlaces directos de contacto.",
+    ],
+    technologies: [
+      { name: "Next.js", icon: "logos:nextjs-icon" },
+      { name: "React", icon: "logos:react" },
+      { name: "TypeScript", icon: "logos:typescript-icon" },
+      { name: "Tailwind CSS", icon: "logos:tailwindcss-icon" },
+      { name: "Framer Motion" },
+      { name: "Vercel", icon: "simple-icons:vercel" },
+    ],
+    links: [
+      {
+        type: "Ver sitio",
+        href: "https://portafolio-v0-topaz.vercel.app/",
+        icon: "globe",
+      },
+      {
+        type: "GitHub",
+        href: "https://github.com/yordy-dev/portafolio-v0",
+        icon: "github",
+      },
+    ],
+    images: [
+      "/projects/portafolio-inicio.png",
+      "/projects/portafolio-experiencia.png",
+      "/projects/portafolio-proyectos.png",
+      "/projects/portafolio-detalle.png",
+      "/projects/portafolio-tema-oscuro.png",
+    ],
+  },
+  {
     title: "Sistema de gestión de inventario",
     context: "Proyecto académico en equipo · UTP, 2026",
     description:
